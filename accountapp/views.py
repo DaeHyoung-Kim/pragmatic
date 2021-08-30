@@ -14,7 +14,7 @@ from django.views.generic.list import MultipleObjectMixin
 from accountapp.decorators import account_ownership_required
 from accountapp.forms import AccountUpdateForm
 from accountapp.models import HelloWorld
-
+from articleapp.models import Article
 
 has_ownership = [account_ownership_required, login_required]
 
